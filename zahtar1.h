@@ -17,7 +17,7 @@ freshfile1 ( 388 c256 y 1024 a 9035 s 1024)
 apkquality1 (androidfile 276440500001000351348)
 hazardactive
 true or false = true
-true or false = thrue
+true or false = true
 onwrites
 255115
 381110
