@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+core.excludesFile
+$GIT_DIR/info/exclude
+$GIT_DIR/info/exclude
