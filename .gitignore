@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+$XDG_CONFIG_HOME/git/ignore
+$GIT_DIR/info/exclude
+gitignore
