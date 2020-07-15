@@ -1,5 +1,5 @@
 # FREECAUSE
-mpacts and Grades
+Impacts and Grades
 DeepScan calculates a project's overall grade by the issues detected and their impacts. This is then represented as a grade which is "Poor", "Normal", and "Good".
 
 Impacts
