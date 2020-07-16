@@ -1,0 +1,7 @@
+- pipe: atlassian/heroku-deploy:1.1.4
+  variables:
+    HEROKU_API_KEY: '<string>'
+    HEROKU_APP_NAME: '<string>'
+    ZIP_FILE: '<string>'
+    # WAIT: '<boolean>' # Optional.
+    # DEBUG: '<boolean>' # Optional
