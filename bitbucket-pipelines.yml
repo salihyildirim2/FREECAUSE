@@ -5,3 +5,4 @@
     ZIP_FILE: '<string>'
     # WAIT: '<boolean>' # Optional.
     # DEBUG: '<boolean>' # Optional
+    $ heroku auth:token
