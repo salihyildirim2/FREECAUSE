@@ -1,3 +1,26 @@
+- pipe: atlassian/aws-elasticbeanstalk-deploy:0.6.6
+  variables:
+    AWS_ACCESS_KEY_ID: '<string>' # Optional if already defined in the context.
+    AWS_SECRET_ACCESS_KEY: '<string>' # Optional if already defined in the context.
+    AWS_DEFAULT_REGION: '<string>' # Optional if already defined in the context.
+    APPLICATION_NAME: '<string>'
+    ENVIRONMENT_NAME: '<string>'
+    ZIP_FILE: '<string>'
+    # S3_BUCKET: '<string>' # Optional.
+    # VERSION_LABEL: '<string>' # Optional.
+    # DESCRIPTION: '<string>' # Optional.
+    # WAIT: '<boolean>' # Optional.
+    # WAIT_INTERVAL: '<integer>' # Optional.
+    # WARMUP_INTERVAL: '<integer>' # Optional.
+    # COMMAND: '<string>' # Optional.
+    # DEBUG: '<boolean>' # Optional.
+- pipe: atlassian/firebase-deploy:0.4.0
+  variables:
+    FIREBASE_TOKEN: '<string>'
+    # PROJECT_ID: '<string>' # Optional.
+    # MESSAGE: '<string>' # Optional.
+    # EXTRA_ARGS: '<string>' # Optional.
+    # DEBUG: '<boolean>' # Optional.
 - pipe: atlassian/heroku-deploy:1.1.4
   variables:
     HEROKU_API_KEY: '<string>'
@@ -5,4 +28,9 @@
     ZIP_FILE: '<string>'
     # WAIT: '<boolean>' # Optional.
     # DEBUG: '<boolean>' # Optional
-    $ heroku auth:token
+- pipe: sonarsource/sonarcloud-scan:1.1.0
+  # variables:
+  #   SONAR_TOKEN: '<string>'  # Optional
+  #   EXTRA_ARGS: '<string>'  # Optional
+  #   SONAR_SCANNER_OPTS: '<string>'  # Optional
+  #   DEBUG: '<boolean>'  # Optional
