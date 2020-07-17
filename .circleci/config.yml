@@ -13,3 +13,9 @@ workflows:
       - welcome/run
       - store_test_results:
     path: test-results
+version: 2.1
+jobs:
+  test:
+    docker:
+      - image: circleci/<language>:<version TAG>
+    parallelism: 27
