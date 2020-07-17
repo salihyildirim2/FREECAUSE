@@ -6,12 +6,12 @@
 grancer35478265230449                   alpha = 9494798819301678379465563 onlineseptist
                 563425             167 code enemy 0
     5166            77            183 code taurus 159365173 alpha
-9               446                (myro version 9.0 enabled) code ciroa
+9               446                (myro version 2.1 enabled) code ciroa
                 4745758869251630
                 abcdefghijklmnoprsalfa179aquadinitri
 484 mn 5 bennefalguarddinitri 
 4                        acedinitri efruz = 928
-4                        bio =  0128
+4                        bio =  0129	phorbitnewreleased
 9                        zahtering =  efecual23 = 11896
     93          67       bishoperrortaula1 = hoplins1
             aquareddiptcolor 7 do not 949005 is onwrites
@@ -34,5 +34,7 @@ mandela7 +f(1)+f2) = 277680
 #endif 1
 
 DLLIMPORT void HelloWorld(); 
-
+myendorfices 99467312677695
+             galaxyperiod68 = code 3
+            7878936545927 = code 5
 #endif 
