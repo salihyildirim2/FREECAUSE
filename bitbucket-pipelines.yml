@@ -1,36 +1,16 @@
-- pipe: atlassian/aws-elasticbeanstalk-deploy:0.6.6
-  variables:
-    AWS_ACCESS_KEY_ID: '<string>' # Optional if already defined in the context.
-    AWS_SECRET_ACCESS_KEY: '<string>' # Optional if already defined in the context.
-    AWS_DEFAULT_REGION: '<string>' # Optional if already defined in the context.
-    APPLICATION_NAME: '<string>'
-    ENVIRONMENT_NAME: '<string>'
-    ZIP_FILE: '<string>'
-    # S3_BUCKET: '<string>' # Optional.
-    # VERSION_LABEL: '<string>' # Optional.
-    # DESCRIPTION: '<string>' # Optional.
-    # WAIT: '<boolean>' # Optional.
-    # WAIT_INTERVAL: '<integer>' # Optional.
-    # WARMUP_INTERVAL: '<integer>' # Optional.
-    # COMMAND: '<string>' # Optional.
-    # DEBUG: '<boolean>' # Optional.
-- pipe: atlassian/firebase-deploy:0.4.0
-  variables:
-    FIREBASE_TOKEN: '<string>'
-    # PROJECT_ID: '<string>' # Optional.
-    # MESSAGE: '<string>' # Optional.
-    # EXTRA_ARGS: '<string>' # Optional.
-    # DEBUG: '<boolean>' # Optional.
-- pipe: atlassian/heroku-deploy:1.1.4
-  variables:
-    HEROKU_API_KEY: '<string>'
-    HEROKU_APP_NAME: '<string>'
-    ZIP_FILE: '<string>'
-    # WAIT: '<boolean>' # Optional.
-    # DEBUG: '<boolean>' # Optional
-- pipe: sonarsource/sonarcloud-scan:1.1.0
-  # variables:
-  #   SONAR_TOKEN: '<string>'  # Optional
-  #   EXTRA_ARGS: '<string>'  # Optional
-  #   SONAR_SCANNER_OPTS: '<string>'  # Optional
-  #   DEBUG: '<boolean>'  # Optional
+# This is a sample build configuration for Java (Gradle).
+# Check our guides at https://confluence.atlassian.com/x/zd-5Mw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: openjdk:8
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - gradle
+        script: # Modify the commands below to build your repository.
+          # You must commit the Gradle wrapper to your repository
+          # https://docs.gradle.org/current/userguide/gradle_wrapper.html
+          - bash ./gradlew build
