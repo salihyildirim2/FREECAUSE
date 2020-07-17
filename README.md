@@ -1,26 +1,39 @@
 # GO WEB SİTE
 https://salihyildirim2.github.io/FREECAUSE/
 
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Bir dosyayı düzenleyin, yeni bir dosya oluşturun ve Bitbucket'ten 2 dakikadan kısa bir sürede klonlayın
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+İşiniz bittiğinde, bu README içindeki içeriği silebilir ve dosyayı deponuzla çalışmaya başlayanların ayrıntılarıyla güncelleyebilirsiniz.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Aşağıdaki görevleri gerçekleştirirken bu README'yi başka bir sekmede açmanızı öneririz. Sen edebilirsiniz videomuzu izlemek Bu eğitimde tüm adımların tam demo için. Bitbucket'ten ayrılmamak için videoyu yeni bir sekmede açın.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+Dosya düzenleme
+Bitbucket'te bir dosyayı nasıl düzenleyeceğinizi öğrenmek için bu README dosyasını düzenleyerek başlayacaksınız.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Sol taraftaki Kaynak'ı tıklayın .
+Dosya listesinden README.md bağlantısını tıklatın.
+Click Düzenleme düğmesini.
+Aşağıdaki metni silin:
+Yaptığınız değişikliği yaptıktan sonra tık Teslim ve sonra Commit iletişim kutusunda tekrar. Tamamlama sayfası açılır ve az önce yaptığınız değişikliği görürsünüz.
+Kaynak sayfasına geri dönün .
+Dosya oluştur
+Ardından, bu depoya yeni bir dosya ekleyeceksiniz.
+
+Kaynak sayfanın üst kısmındaki Yeni dosya düğmesini tıklayın .
+Dosyaya katkılar.txt dosya adı verin .
+Boş dosya alanına adınızı girin.
+Click Teslim Et ve sonra Commit iletişim kutusunda tekrar.
+Kaynak sayfasına geri dönün .
+Devam etmeden önce devam edin ve depoyu keşfedin. Kaynak sayfasını zaten gördünüz , ancak Taahhütler , Dallar ve Ayarlar sayfalarına göz atın .
+
+Bir havuzu klonlama
+Depo komut satırını ücretsiz olarak kullandığımız istemcimiz SourceTree'den kopyalamak için bu adımları kullanın. Klonlama, dosyalarınız üzerinde yerel olarak çalışmanıza olanak tanır. Henüz SourceTree'niz yoksa önce indirin ve yükleyin . Komut satırından klonlamayı tercih ediyorsanız bkz . Havuzu klonlama .
+
+Kaynak başlığının altında klonlama düğmesini göreceksiniz . Bu düğmeyi tıklayın.
+Şimdi SourceTree'de kullanıma al'ı tıklayın . Bir SourceTree hesabı oluşturmanız veya giriş yapmanız gerekebilir.
+Gördüğünüzde Klon Yeni SourceTree içinde iletişim, sen istersen hedef yolunu ve adını güncellemek ve ardından Clone .
+Deponuzun dosyalarını görmek için yeni oluşturduğunuz dizini açın.
+Artık Bitbucket deponuza daha aşina olduğunuza göre, devam edin ve yerel olarak yeni bir dosya ekleyin. Şunları yapabilirsiniz SourceTree ile Bitbucket için değişiklik geri itmek veya yapabilirsiniz ekleyebilir işlemek, ve komut satırından itme .
 
 ![CI](https://github.com/salihyildirim2/FREECAUSE/workflows/CI/badge.svg)
 ![CI](https://github.com/salihyildirim2/FREECAUSE/workflows/CI/badge.svg?branch=security)
