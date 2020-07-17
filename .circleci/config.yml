@@ -19,3 +19,67 @@ jobs:
     docker:
       - image: circleci/<language>:<version TAG>
     parallelism: 27
+jobs:
+  build:
+    machine:
+      image: ubuntu-1604:201903-01 # recommended linux image - includes Ubuntu 16.04, docker 18.09.3, docker-compose 1.23.1
+    resource_class: large
+    steps:
+      ... // other config
+      jobs:
+  build:
+    macos:
+      xcode: "11.3.0"
+    resource_class: large
+    steps:
+      ... // other config
+version: 2.1
+
+orbs:
+  win: circleci/windows@2.3.0
+
+jobs:
+  build:
+    executor:
+      name: win/default
+      size: "medium" # can be "medium", "large", "xlarge", "2xlarge"
+    steps:
+      - run: Write-Host 'Hello, Windows
+      jobs:
+  build:
+    machine:
+      resource_class: gpu.nvidia.small
+      image: ubuntu-1604-cuda-10.1:201909-23
+    steps:
+      - run: nvidia-smi
+      - run: docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
+      jobs:
+  build:
+    working_directory: ~/canary-python
+    environment:
+      FOO: bar
+    steps:
+      - run:
+          name: Running tests
+          command: make test
+          jobs:
+  build:
+    steps:
+      - run: make test
+      jobs:
+  build:
+    steps:
+      - checkout
+      - run:
+    command: |
+      echo Running test
+      set +e
+      mkdir -p /tmp/test-results
+      make test
+
+- run:
+    shell: /bin/sh
+    command: |
+      echo Running test
+      mkdir -p /tmp/test-results
+      make test
