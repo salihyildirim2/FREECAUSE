@@ -12,3 +12,50 @@ You can @mention a GitHub username to generate a link to their profile. The resu
 
 ### Support or Contact
 Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. RUN ACTİON FİLE
+- isim: EFLACEST
+  kullanır: salihyildirim2 / EFLACEST @ icon
+
+#ifndef SOMETHING_H a1 start
+#define SOMETHING_H+online+EFLACEST
+
+class: 209154790+A
+
+$JOBS+BUILDS
+
+      $ALPHANAMEZETSKI123-ABISHOPPATCHACTIVE
+     29454529+1000128999
+	  RUNS >>>>  WRITEANDGLISS=EFLACEST ONLINE EARNINGS
+       
+    inputupdate : HIGHDEFINATIONSFILESYENABLED
+        
+        - isim: EFLACEST
+  kullanir: salihyildirim2 / EFLACEST @ icon
+PARAMETRE = A 
+JOIN = FILES
+                                                                                               designedby: 93072615
+
+
+
+
+
+
