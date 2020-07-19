@@ -8,7 +8,7 @@ OPEN ALFA FOLDER TO YOUR FILE CONTENT
 # WRİTE NO THİS OPENGALAXY5
 OPENGALAXY5
 # PASTE TO ACTİON FİLE 
-https://salihyildirim2.github.io/EFLACEST/
+https://github.com/salihyildirim2/FREECAUSE
                                                             
 # FORKİNG MAİN FİLE %100 FOR SUCCESS
 # %47 FOR SUCCESS DO NOT FORKİNG MAİN FİLE
