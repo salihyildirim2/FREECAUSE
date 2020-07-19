@@ -5,8 +5,7 @@
   
 # MAKE REQUIRED FAULT CONTROLS
 OPEN ALFA FOLDER TO YOUR FILE CONTENT  
-# WRİTE NO THİS OPENGALAXY5
-OPENGALAXY5
+
 # PASTE TO ACTİON FİLE 
 https://github.com/salihyildirim2/FREECAUSE
                                                             
