@@ -19,4 +19,4 @@ https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
 
 
 # CODE BADGES ANALYSIS
-[! [BCH uyumluluğu](https://bettercodehub.com/edge/badge/salihyildirim2/FREECAUSE?branch=master)] (https://bettercodehub.com/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/salihyildirim2/FREECAUSE?branch=master)](https://bettercodehub.com/)<img src='https://bettercodehub.com/edge/badge/salihyildirim2/FREECAUSE?branch=master'>
