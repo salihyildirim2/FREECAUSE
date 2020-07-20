@@ -16,3 +16,7 @@ https://github.com/salihyildirim2/FREECAUSE
 https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml 
 # OPERATING INDICATOR
 https://github.com/BALTHAZARUNIQUE/FREECAUSE-1/blob/master/action.yml
+
+
+# CODE BADGES ANALYSIS
+[! [BCH uyumluluğu](https://bettercodehub.com/edge/badge/salihyildirim2/FREECAUSE?branch=master)] (https://bettercodehub.com/)
