@@ -1,0 +1,19 @@
+name: Example Workflow
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: Read template from file
+      id: template
+      uses: traversals-analytics-and-intelligence/file-reader-action@master
+      with:
+        file: ./build/generated/template
+
+    - name: Get the template output
+      run: echo "${{ steps.template.outputs.content }}"
