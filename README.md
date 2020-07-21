@@ -33,6 +33,8 @@ HTML :
 
 CODE QUALİTY 
 
+www.codefactor.io
+
 MARKDOWN :
 
 [![CodeFactor](https://www.codefactor.io/repository/github/salihyildirim2/freecause/badge)](https://www.codefactor.io/repository/github/salihyildirim2/freecause)
