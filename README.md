@@ -1,5 +1,5 @@
 # node.js
- program writes designer By SAL?H YILDIRIM
+ program writes designer By SALIH YILDIRIM
  ENCODE writes By SAL?H YILDIRIM
 
  
@@ -17,4 +17,4 @@ https://salihyildirim2.github.io/FREECAUSE/
 thanks 
 
 
-https://app.buddy.works/balthazarunique/bi-rd/pipelines/pipeline/269615
+
